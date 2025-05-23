@@ -68,7 +68,7 @@ body {
 
 .split-screen-scene {
   display: flex;
-  height: 100vh;
+  max-height: 100vh;
   width: 100vw;
   overflow: hidden;
 }
@@ -226,17 +226,17 @@ body {
 }
 
 .input-group {
-  width: 100%; /* Ширина 100% от родительского контейнера */
-  max-width: 400px; /* Максимальная ширина */
+  width: 100%;
+  max-width: 400px; 
   padding: 12px 15px;
   border: 1px solid #000000;
   border-radius: 6px;
   font-size: 16px;
   margin-top: 5px;
   box-sizing: border-box;
-  overflow: hidden; /* Добавляем обрезку вылезающего содержимого */
-  text-overflow: ellipsis; /* Добавляем многоточие при переполнении */
-  white-space: nowrap; /* Запрещаем перенос текста */
+  overflow: hidden; 
+  text-overflow: ellipsis; 
+  white-space: nowrap; 
 }
 
 .input-form {
@@ -304,7 +304,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 100vh;
+  max-height: 100vh;
 }
 
 .image-container {
@@ -387,6 +387,7 @@ body {
   display: flex;
   height: 100vh;
   width: 100vw;
+  overflow: hidden;
 }
 
 .form-section {
@@ -403,7 +404,7 @@ body {
 }
 
 .logo {
-  width: 300px;
+  width: 120px;
   display: block;
   margin: 0 auto 30px auto;
 }
@@ -512,7 +513,7 @@ body {
 }
 
 .form-title {
-  color: #2c3e50; /* Темно-синий цвет текста */
+  color: #2c3e50; 
   font-size: 24px;
   margin-bottom: 20px;
   text-align: center;
@@ -523,5 +524,5 @@ body {
   border: 1px solid #ddd;
   border-radius: 4px;
   font-size: 14px;
-  width: 135px; /* Точная ширина под текст "Начальная точка" */
+  width: 135px; 
 }
