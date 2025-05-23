@@ -1,3 +1,11 @@
+<<<<<<< HEAD
 [submodule "mapa"]
 	path = mapa
 	url = https://github.com/FufelShmertsPacostinco/mapa.git
+=======
+   [submodule "mapa"]
+     path = mapa
+        url = https://github.com/FufelShmertsPacostinco/mapa.git
+   
+   
+>>>>>>> 2e5442bedaff4441f151bf9f5aabec10ebd00798
